@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewData["Title"] = "Page";
+    int currPage = (int)ViewData["currPage"];
+    int maxPage = (int)ViewData["maxPage"];
+}
+@model List<Post>
+
+@foreach (var item in Model)
+{
+    <div class="post-preview ">
+        <a href="~/post/@item.id">
+            <h2 class="post-title">
+                @item.title
+            </h2>
+            <p class="post-meta">
+                <i class="fa fa-calendar" aria-hidden="true"></i> @item.time
+            </p>
+
+            <h3 class="post-subtitle"></h3>
+
+            <div class="post-content-preview">
+                <p>
+                    @Html.Raw(item.description)
+                </p>
+            </div>
+        </a>
+    </div>
+    <hr>
+}
+
+<ul class="pager">
+    @if (currPage > 1)
+    {
+        <li class="previous">
+            <a href="/page/@(currPage-1)">&larr; Newer Posts</a>
+        </li>
+    }
+    @if (currPage < maxPage)
+    {
+        <li class="next">
+            <a href="/page/@(currPage + 1)">Older Posts &rarr;</a>
+        </li>
+    }
+</ul>

@@ -1,0 +1,48 @@
+﻿@model SignInFrom
+@{
+    ViewData["Title"] = "SignIn";
+}
+
+<h2>SignIn</h2>
+
+<p>@ViewData["name"]</p>
+
+
+<div class="container">
+    <form asp-action="SignIn">
+        <div class="form-horizontal">
+
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Pw" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="Pw" class="form-control" type="password" />
+                    <span asp-validation-for="Pw" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Cpw" class="col-md-2 control-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="Cpw" class="form-control" type="password" />
+                    <span asp-validation-for="Cpw" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">注册</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

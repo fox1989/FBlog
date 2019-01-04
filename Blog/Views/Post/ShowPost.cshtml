@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewData["Title"] = "ShowPost";
+}
+@model Post
+
+
+
+<div class="post-heading">
+    <h1></h1>
+
+    <h2 class="subheading">@Model.title</h2>
+
+    <span class="meta">
+        @*@Model.author.UserName*@
+        <span>
+            @Model.time
+        </span>
+    </span>
+    <div class="tags text-center">
+
+        <a class="tag" href="/tags/#Anisina"
+           title="Anisina"></a>
+
+    </div>
+</div>
+<article>
+
+    @Html.Raw(Model.content)
+
+</article>
+
+
+

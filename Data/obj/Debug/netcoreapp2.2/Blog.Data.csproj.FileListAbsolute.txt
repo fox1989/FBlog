@@ -1,0 +1,11 @@
+E:\git\Blog\Data\bin\Debug\netcoreapp2.2\Blog.Data.deps.json
+E:\git\Blog\Data\bin\Debug\netcoreapp2.2\Blog.Data.runtimeconfig.json
+E:\git\Blog\Data\bin\Debug\netcoreapp2.2\Blog.Data.runtimeconfig.dev.json
+E:\git\Blog\Data\bin\Debug\netcoreapp2.2\Blog.Data.dll
+E:\git\Blog\Data\bin\Debug\netcoreapp2.2\Blog.Data.pdb
+E:\git\Blog\Data\obj\Debug\netcoreapp2.2\Blog.Data.csprojAssemblyReference.cache
+E:\git\Blog\Data\obj\Debug\netcoreapp2.2\Blog.Data.csproj.CoreCompileInputs.cache
+E:\git\Blog\Data\obj\Debug\netcoreapp2.2\Blog.Data.AssemblyInfoInputs.cache
+E:\git\Blog\Data\obj\Debug\netcoreapp2.2\Blog.Data.AssemblyInfo.cs
+E:\git\Blog\Data\obj\Debug\netcoreapp2.2\Blog.Data.dll
+E:\git\Blog\Data\obj\Debug\netcoreapp2.2\Blog.Data.pdb

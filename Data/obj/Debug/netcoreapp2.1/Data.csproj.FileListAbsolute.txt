@@ -1,0 +1,6 @@
+E:\git\Blog\Data\bin\Debug\netcoreapp2.1\Data.deps.json
+E:\git\Blog\Data\bin\Debug\netcoreapp2.1\Data.dll
+E:\git\Blog\Data\obj\Debug\netcoreapp2.1\Data.csprojAssemblyReference.cache
+E:\git\Blog\Data\obj\Debug\netcoreapp2.1\Data.csproj.CoreCompileInputs.cache
+E:\git\Blog\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfoInputs.cache
+E:\git\Blog\Data\obj\Debug\netcoreapp2.1\Data.AssemblyInfo.cs
